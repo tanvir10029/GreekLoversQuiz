@@ -173,27 +173,27 @@
         if(item == 1) {
           score.append('<center><img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/MaskOfAgamemnon.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Agamemnon!</h2></center>');
-          score.append('<center>You had to kill your daughter to get .</center>');
+          score.append('<center>You had to kill your daughter to fight against the Trojans. Now your wife is pissed and you know she is just going to kill you when uyou get home. Little do you know it was literally. Maybe picking up a mistress along the way was not a good idea.</center>');
         }
         if(item == 2) {
           score.append('<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Frederick_Sandys_-_Medea%2C_1866-1868.jpg/220px-Frederick_Sandys_-_Medea%2C_1866-1868.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Medea!</h2></center>');
-          score.append('<center>You murdered your husband.</center>');
+          score.append('<center>You loved your husband dearly and gave everything for him, even hacking up your own brother so he can escape safely. However, he want to marry a princess for the power and wealth. He refuses to hold the promise he back back when you first met each other to be together. You decide the only way to hurt him as much as he hurt you is to kill the princess and your children. You flying into the sky on a chariot, deranged and believing you got the last laugh.</center>');
         }
         if(item == 3) {
           score.append('<center><img src="http://powersenglish6.weebly.com/uploads/3/7/9/6/37964767/5748690_orig.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Jason!</h2></center>');
-          score.append('<center>You murdered your husband.</center>');
+          score.append('<center>You just want to be king like you should have been but that uncle of yours had to take over. Now your stuck with your annoying wife who does not let you marry the princess to achive your dreams of power. Ugh, a real lover would have understood. But your shocked and tramatized when she kills the princess and your own children and snears off into the sunset. "How will I become king now?," you mourn.</center>');
         }
         if(item == 4) {
           score.append('<center><img src="https://cdn.britannica.com/71/21771-050-099E3131/marble-herm-Euripides-original-Greek-Museo-Archeologico-330-bce.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Xuthus!</h2></center>');
-          score.append('<center>You murdered your husband.</center>');
+          score.append('<center>You are the king of Athens and you are proud of your achivement, despite the fact that the Athenians are super racism. However, you and your wife have been having trouble havinng kids. You go to the Temple of Apollo at Delphi and you meet a young man who is apparently your son! You are confused how that works but happy to have a heir. Your wife and him seem to despise each other at first but they warm up and start getting along.</center>');
         }
         if(item == 5) {
           score.append('<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cr%C3%A9%C3%BCse_fuyant_Troie.jpeg/220px-Cr%C3%A9%C3%BCse_fuyant_Troie.jpeg" style="width:50%"></center>');
           score.append('<center><h2>You are Kreousa!</h2></center>');
-          score.append('<center>You murdered your husband.</center>');
+          score.append('<center>You and your husband are having trouble havin a baby. You go to the temple of Apollo to seek help. Some smug kid is there and he is apparently the child of your husband. "That a**hole must have cheated", you think. You and the kid try to kill each other but then Athena comes down and says that he is your and Apollos child. Immediately apologises to your son and you both decide to keep this hush-hush from your father. </center>');
         }
         return score;
   }
