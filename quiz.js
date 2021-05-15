@@ -6,11 +6,11 @@
     answer: 2
   }, {
     question: "What would be your ancient Greek weapon of choice to dispose of a loved one?",
-    options: ["Two words: heavy cloth and axe", "Sacrifice to the Gods", "Knife and Heartlessness", "I’d get someone else to do it for me", "Haven’t really given it a thought" , "The most expensive poison"],
+    options: ["Two words: heavy cloth and axe", "Sacrifice to the Gods", "Knife and Heartlessness", "I'd get someone else to do it for me", "Haven't really given it a thought" , "The most expensive poison"],
     answer: 3
   }, {
     question: "What do you think about foreigners?",
-    options: ["I don’t really care unless she was connected to my husband...", "I dislike them, especially Trojans", "I don’t see anything wrong with them","They can have tendencies of barbarians", "I think they’re great!", "I don’t really care..."],
+    options: ["I don't really care unless she was connected to my husband...", "I dislike them, especially Trojans", "I don't see anything wrong with them","They can have tendencies of barbarians", "I think they're great!", "I don't really care..."],
     answer: 1
   },{
     question: "How much do you love your children?",
@@ -26,7 +26,7 @@
     answer: 0
   },{
     question: "What do you do after committing a crime?",
-    options: ["Loudly boast about it to the witnesses", "Pretend like it never happened", "Flying away on a chariot pulled by dragons", "Make the most out of it", "I’m the king so I can do anything", "Hide the evidence and don't tell anyone"],
+    options: ["Loudly boast about it to the witnesses", "Pretend like it never happened", "Flying away on a chariot pulled by dragons", "Make the most out of it", "I'm the king so I can do anything", "Hide the evidence and don't tell anyone"],
     answer: 0
   },{
     question: "Which Greek God would you ask for support from?",
@@ -38,7 +38,7 @@
     answer: 2
   },{
     question: "Date idea?",
-    options: ["Soaked in blood with a crowd of shocked old men. Need I say more?", "After a long war, enjoying a peaceful night at home where nothing bad is definitely going to happen", "Dismembering my brother and my fiance’s uncle", "Me ruling the country and you’re counting my gold ", "Touring the land I conquereds", "Shopping for expensive poisons"],
+    options: ["Soaked in blood with a crowd of shocked old men. Need I say more?", "After a long war, enjoying a peaceful night at home where nothing bad is definitely going to happen", "Dismembering my brother and my fiance's uncle", "Me ruling the country and you're counting my gold ", "Touring the land I conquereds", "Shopping for expensive poisons"],
     answer: 0
     }];
   
