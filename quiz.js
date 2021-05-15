@@ -188,7 +188,7 @@
         if(item == 4) {
           score.append('<center><img src="https://cdn.britannica.com/71/21771-050-099E3131/marble-herm-Euripides-original-Greek-Museo-Archeologico-330-bce.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Xuthus!</h2></center>');
-          score.append('<center>You are the king of Athens and you are proud of your achivement, despite the fact that the Athenians are super racism. However, you and your wife have been having trouble havinng kids. You go to the Temple of Apollo at Delphi and you meet a young man who is apparently your son! You are confused how that works but happy to have a heir. Your wife and him seem to despise each other at first but they warm up and start getting along.</center>');
+          score.append('<center>You are the king of Athens and you are proud of your achivement, despite the fact that the Athenians are super racism. However, you and your wife have been having trouble havinng kids. You go to the Temple of Apollo at Delphi and you meet a young man who is apparently your son! You are confused how that works but happy to have a heir. Your wife and him seem to despise each other at first but they warm up and start getting along. <br> Disclaimer: This is actually a picture of Euripides. I could not find an actual picture of Xuthus for the life of me.</center>');
         }
         if(item == 5) {
           score.append('<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cr%C3%A9%C3%BCse_fuyant_Troie.jpeg/220px-Cr%C3%A9%C3%BCse_fuyant_Troie.jpeg" style="width:50%"></center>');
