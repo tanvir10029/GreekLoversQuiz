@@ -2,15 +2,15 @@
  {
   var allQuestions = [{
     question: "If your lover asks you to do something morally questionable, what would you do?",
-    options: ["Which lover?...", "Lifeline: Let me turn to the Gods", "If I love them, I would do it. Ride or die babyyy", "Nah, I only do that for myself", "Maybe, I'm ambiguous", "Depends on whether they have wrong me"],
+    options: ["Which lover?...", "Lifeline: Let me turn to the gods", "If I love them, I would do it. Ride or die babyyy", "Nah, I only do that for myself", "Maybe, I'm ambiguous", "Depends on whether they have wrong me"],
     answer: 2
   }, {
     question: "What would be your ancient Greek weapon of choice to dispose of a loved one?",
-    options: ["Two words: heavy cloth and axe", "Sacrifice to the Gods", "Knife and Heartlessness", "I'd get someone else to do it for me", "Haven't really given it a thought" , "The most expensive poison"],
+    options: ["Two words: heavy cloth and axe", "Sacrifice to the gods", "Knife and Heartlessness", "I'd get someone else to do it for me", "Haven't really given it a thought" , "The most expensive poison"],
     answer: 3
   }, {
     question: "What do you think about foreigners?",
-    options: ["I don't really care unless she was connected to my husband...", "I dislike them, especially Trojans", "I don't see anything wrong with them","They can have tendencies of barbarians", "I think they're great!", "I don't really care..."],
+    options: ["I don't really care unless she was connected to my husband...", "I dislike them, especially Trojans", "I don't see anything wrong with them",'They can have tendencies of "barbarians"', "I think they're great!", "I don't really care..."],
     answer: 1
   },{
     question: "How much do you love your children?",
@@ -29,7 +29,7 @@
     options: ["Loudly boast about it to the witnesses", "Pretend like it never happened", "Flying away on a chariot pulled by dragons", "Make the most out of it", "I'm the king so I can do anything", "Hide the evidence and don't tell anyone"],
     answer: 0
   },{
-    question: "Which Greek God would you ask for support from?",
+    question: "Which Greek god would you ask for support from?",
     options: ["Nemesis", "Artemis", "Themis", "Aphrodite", "Apollo", "Athena"],
     answer: 3
   },{
