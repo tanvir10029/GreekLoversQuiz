@@ -34,7 +34,7 @@
     answer: 3
   },{
     question: "What do you look for in a partner?",
-    options: ["Someone who shares the same goals as me", "Someone willing to sacrifice thing (people) for the greater cause", "Someone who loves me back ;-;", "Someone with a high status in society", "Someone to make my (literal) queen", "I'm not picky"],
+    options: ["Someone who shares the same goals as me", "Someone willing to sacrifice things (people) for the greater cause", "Someone who loves me back ;-;", "Someone with a high status in society", "Someone to make my (literal) queen", "I'm not picky"],
     answer: 2
   },{
     question: "Date idea?",
@@ -87,6 +87,7 @@
   function radioButtons(index) 
     {
         var radioItems = $('<ul>');
+        radioItems.append('<center>');
         var item;
         var input = '';
         for (var i = 0; i < allQuestions[index].options.length; i++) {
@@ -96,6 +97,7 @@
           item.append(input);
           radioItems.append(item);
         }
+        
         return radioItems;
   }
   
@@ -168,32 +170,32 @@
         if(item == 0) {
           score.append('<center><img src="https://pbs.twimg.com/profile_images/1194332510735355904/W_B1ffGQ_400x400.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Clytemnestra!</h2></center>');
-          score.append('<center>Your husband decided to sacrifice your daughter to fight in a war. You are pissed and kill him. Good new though, the lover that you took while your husband was gone understands you and still love you for who you are (not to mention he also had a grudge against your husband). Hope you do not have to kill your new husband.</center>');
+          score.append('<center>Your husband decided to sacrifice your daughter to fight in a war. You are pissed and kill him. Good news, though, the lover you took while your husband was gone understands you and still loves you for who you are (not to mention he also had a grudge against your husband). Hope you do not have to kill your new husband.</center>');
         }
-        if(item == 1) {
+        else if(item == 1) {
           score.append('<center><img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/MaskOfAgamemnon.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Agamemnon!</h2></center>');
-          score.append('<center>You had to kill your daughter to fight against the Trojans. Now your wife is pissed and you know she is just going to kill you when uyou get home. Little do you know it was literally. Maybe picking up a mistress along the way was not a good idea.</center>');
+          score.append('<center>You had to kill your daughter to fight against the Trojans. Now your wife is pissed, and you know she is just going to kill you when you get home. Little do you know it was literally. Maybe picking up a mistress along the way was not a good idea.</center>');
         }
-        if(item == 2) {
+        else if(item == 2) {
           score.append('<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Frederick_Sandys_-_Medea%2C_1866-1868.jpg/220px-Frederick_Sandys_-_Medea%2C_1866-1868.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Medea!</h2></center>');
-          score.append('<center>You loved your husband dearly and gave everything for him, even hacking up your own brother so he can escape safely. However, he want to marry a princess for the power and wealth. He refuses to hold the promise he back back when you first met each other to be together. You decide the only way to hurt him as much as he hurt you is to kill the princess and your children. You flying into the sky on a chariot, deranged and believing you got the last laugh.</center>');
+          score.append('<center>You loved your husband dearly and gave everything for him, even hacking up your brother so he can escape safely. However, he wants to marry a princess for power and wealth. He refuses to hold the promise back when you first met each other to be together. You decide the only way to hurt him as much as he hurt you is to kill the princess and your children. You fly into the sky on a chariot, deranged and believing you got the last laugh.</center>');
         }
-        if(item == 3) {
+        else if(item == 3) {
           score.append('<center><img src="http://powersenglish6.weebly.com/uploads/3/7/9/6/37964767/5748690_orig.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Jason!</h2></center>');
-          score.append('<center>You just want to be king like you should have been but that uncle of yours had to take over. Now your stuck with your annoying wife who does not let you marry the princess to achive your dreams of power. Ugh, a real lover would have understood. But your shocked and tramatized when she kills the princess and your own children and snears off into the sunset. "How will I become king now?," you mourn.</center>');
+          score.append('<center>You want to be king like you should have been, but that uncle of yours had to take over. Now, you are stuck with your annoying wife, who does not let you marry the princess to achieve your dreams of power. Ugh, a real lover would have understood. But you are shocked and traumatized when she kills the princess and your own children and sneers off into the sunset. "How will I become king now?," you mourn.</center>');
         }
-        if(item == 4) {
+        else if(item == 4) {
           score.append('<center><img src="https://cdn.britannica.com/71/21771-050-099E3131/marble-herm-Euripides-original-Greek-Museo-Archeologico-330-bce.jpg" style="width:50%"></center>');
           score.append('<center><h2>You are Xuthus!</h2></center>');
-          score.append('<center>You are the king of Athens and you are proud of your achivement, despite the fact that the Athenians are super racism. However, you and your wife have been having trouble havinng kids. You go to the Temple of Apollo at Delphi and you meet a young man who is apparently your son! You are confused how that works but happy to have a heir. Your wife and him seem to despise each other at first but they warm up and start getting along. <br><br> Disclaimer: This is actually a picture of Euripides. I could not find an actual picture of Xuthus for the life of me.</center>');
+          score.append('<center>You are the king of Athens, and you are proud of your achievement, despite the fact that the Athenians are super racism. However, you and your wife have been having trouble having kids. You go to the Temple of Apollo at Delphi, and you meet a young man who is apparently your son! You are confused about how that works but happy to have an heir. He and your wife seem to despise each other at first, but they warm up and start getting along. <br><br> Disclaimer: This is actually a picture of Euripides. I could not find an actual picture of Xuthus for the life of me.</center>');
         }
-        if(item == 5) {
+        else if(item == 5) {
           score.append('<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cr%C3%A9%C3%BCse_fuyant_Troie.jpeg/220px-Cr%C3%A9%C3%BCse_fuyant_Troie.jpeg" style="width:50%"></center>');
           score.append('<center><h2>You are Kreousa!</h2></center>');
-          score.append('<center>You and your husband are having trouble havin a baby. You go to the temple of Apollo to seek help. Some smug kid is there and he is apparently the child of your husband. "That a**hole must have cheated", you think. You and the kid try to kill each other but then Athena comes down and says that he is your and Apollos child. Immediately apologises to your son and you both decide to keep this hush-hush from your father. </center>');
+          score.append('<center>You and your husband are having trouble having a baby. You go to the temple of Apollo to seek help. Some smug kid is there, and he is apparently the child of your husband. "That a**hole must have cheated," you think. You and the kid try to kill each other, but then Athena comes down and says that he is your and Apollos child. Immediately apologizes to your son, and you both decide to keep this hush-hush from your father.</center>');
         }
         return score;
   }
