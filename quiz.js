@@ -18,7 +18,7 @@
     answer: 0
   }, {
     question: "What is your main goal?",
-    options: ["Revenge because someone I loved was wrong", "Defeating my enemies", "Revenge because I was wronged", "Power and wealth", "To have a worthy heir", "Revenge until I realized I was wrong and now making sure that my husband doesn't find out that his new son's real dad is a god"],
+    options: ["Revenge because someone I loved was wrong", "Defeating my enemies", "Revenge because I was wronged", "Power and wealth", "To have a worthy heir", "Revenge until I realized I was wrong and now hope my husband doesn't find out he's not the dad"],
     answer: 1
   },{
     question: "How do you expect your lover to help you in achieving your goals?",
